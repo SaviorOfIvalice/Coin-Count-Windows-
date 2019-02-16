@@ -167,6 +167,7 @@ def main():
                 print("Total saved to {}\\{}!\n\n\n\n".format(cwd, inp))
             end()
         elif mode.upper() == "C":
+            inp = ""
             mode = ""
             while mode.upper() != "N" and mode.upper() != "O":
                 mode = input("Count from New or Open previous total? [N/O]: ")
